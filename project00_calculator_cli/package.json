@@ -1,0 +1,21 @@
+{
+  "name": "project00_calculator_cli",
+  "version": "1.0.0",
+  "description": "This is the first calculator cli project",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
